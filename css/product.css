@@ -1,0 +1,149 @@
+.product-detail {
+  height: auto;
+  width: 100%;
+  margin: 40px 0px;
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.image-gallery {
+  display: flex;
+  justify-content: center;
+
+  gap: 50px;
+}
+.small-images {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 10px;
+}
+.small-images img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.large-image {
+  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+}
+.large-image img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.product-details {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+.product-details h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.size {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+
+  outline: none;
+
+  margin-bottom: 20px;
+}
+.btn {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #fff;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+#price {
+  /* margin-top: 20px; */
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+  height: auto;
+  width: 100%;
+  /* background-color: gray; */
+  border-radius: 20px;
+  color: #000;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+#price:hover {
+  background-color: #000;
+  color: #fff;
+}
+.price-conatiner {
+  margin-top: 20px;
+  width: 80%;
+
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#product-desc {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .product-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    width: 100%;
+  }
+  .large-image {
+    height: 350px;
+    width: 150px;
+    /* border: 1px solid black; */
+  }
+  .large-image img {
+    height: 350px;
+    width: 150px;
+  }
+  .image-gallery {
+    /* border: 1px solid black; */
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* align-items: center; */
+  }
+  .product-details {
+    /* border: 1px solid black; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: #fff;
+  }
+  #product-desc {
+    font-size: 18px;
+  }
+}

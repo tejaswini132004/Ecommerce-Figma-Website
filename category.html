@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/category.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div id="search-bar" class="search-bar">
+      <input type="text" placeholder="Search Category" class="search-input" />
+    </div>
+
+    <nav id="nav">
+      <label for="" class="icons" id="menu-icon">
+        <box-icon name="menu"></box-icon>
+      </label>
+
+      <div class="hidden-menu">
+        <ul>
+          <li><a href="index.html#shop">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+
+      <ul>
+        <li><a href="index.html#shop" class="utility">Shop</a></li>
+        <li><a href="about.html" class="utility">About</a></li>
+        <li>
+          <a href="#" id="search-icon"
+            ><box-icon name="search-alt-2"></box-icon
+          ></a>
+        </li>
+      </ul>
+      <div class="nav-text">
+        <h3>THE FIGMA STORE</h3>
+      </div>
+      <div class="nav-cart">
+        <!-- <p class="utility">CART : 0</p> -->
+        <ul>
+          <li><a href="cart.html" class="utility nav-count">Cart 0</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="product-container swiper-container swiper">
+      <div class="swiper-wrapper"></div>
+    </div>
+
+    <footer>
+      <div class="main-footer">
+        <div class="footer-div">
+          <div class="rect">THE FIGMA STORE</div>
+          <div class="footer-text">
+            <h1>OBJECTS THAT INSPIRE.</h1>
+          </div>
+          <div class="footer-links">
+            <a href="about.html#faq">FAQ</a>
+            <a href="about.html#customer-care">Contact Us</a>
+            <a>Privacy Policy</a>
+            <a>Terms of Service</a>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.figma.com/" target="_blank">FIGMA</a>
+          <a href="https://x.com/" target="_blank">TWITTER</a>
+          <a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a>
+          <a href="https://www.youtube.com/" target="_blank">YOUTUBE</a>
+          <a class="up-arrow"><box-icon name="up-arrow-circle"></box-icon></a>
+        </div>
+        <div class="floating-text">
+          <h3>
+            FIGMA'S MARVELOUSLY CONSIDERED COLLECTION OF OBJECTS FOR OUR TIME ON
+          </h3>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="script.js"></script>
+  <script src="js/category.js"></script>
+  <script src="js/cart.js"></script>
+</html>

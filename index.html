@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+
+<div id="search-bar" class="search-bar">
+  <input type="text" placeholder="Search Category" class="search-input"/>
+</div>
+
+    <nav id="nav">
+      <label for="" class="icons" id="menu-icon">
+        <box-icon name="menu"></box-icon>
+      </label>
+
+      <div class="hidden-menu">
+        <ul>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+
+      <ul>
+        <li><a href="#shop" class="utility">Shop</a></li>
+        <li><a href="about.html" class="utility">About</a></li>
+        <li>
+          <a href="#" id="search-icon"
+            ><box-icon name="search-alt-2"></box-icon
+          ></a>
+        </li>
+      </ul>
+      <div class="nav-text">
+        <h3>THE FIGMA STORE</h3>
+      </div>
+      <div class="nav-cart">
+        <!-- <p class="utility">CART : 0</p> -->
+        <ul>
+          <li><a href="cart.html" class="utility nav-count">Cart 0</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="slider swiper menu-open">
+      <div class="slider-wrapper swiper-wrapper">
+        <div class="swiper-slide oval shape">
+          <img
+            src="https://store.figma.com/cdn/shop/products/Figma-Store-1039_1000x.jpg?v=1636599836"
+          />
+          <a href="http://127.0.0.1:5501/product.html?product=1">Rainbow logo tee</a>
+        </div>
+        <div class="swiper-slide rounded-rectangle shape">
+          <img
+            src="https://store.figma.com/cdn/shop/products/figma-store_tidy-up-tee_01_1000x.jpg?v=1670516715"
+          />
+          <a href="http://127.0.0.1:5501/product.html?product=2">Tidy up tee</a>
+        </div>
+        <div class="swiper-slide circle shape">
+          <img
+            src="https://store.figma.com/cdn/shop/products/figma-store_dress-code-hat_01_1000x.png?v=1677707527"
+          />
+          <a href="http://127.0.0.1:5501/product.html?product=5">Dress code hat</a>
+        </div>
+        <div class="swiper-slide rectangle shape">
+          <img
+            src="https://store.figma.com/cdn/shop/products/Figma-Store-3804_1000x.jpg?v=1636599369"
+          />
+          <a href="http://127.0.0.1:5501/product.html?product=6">Figma wordmark tee</a>
+        </div>
+
+        <div class="swiper-slide oval2 shape">
+          <img
+            src="https://store.figma.com/cdn/shop/products/FigmaStore_Tote-25_1000x.jpg?v=1657055226"
+          />
+          <a href="http://127.0.0.1:5501/product.html?product=10">Cursor Tote Bag</a>
+        </div>
+
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+      </div>
+    </section>
+    <section class="homepage-text">
+      <h3>
+        Figma's
+        <img
+          src="https://store.figma.com/cdn/shop/t/32/assets/word-symbol-burst.static.svg?v=34745811441670751621727134990"
+        />
+        Collection
+        <img
+          src="https://store.figma.com/cdn/shop/t/32/assets/word-symbol-hourglass.static.svg?v=133626873782927219541727134989"
+        />
+        of Layers
+        <img
+          src="https://store.figma.com/cdn/shop/t/32/assets/word-symbol-zag.static.svg?v=102718930007740203771727134989"
+        />
+        and
+        <img
+          src="https://store.figma.com/cdn/shop/t/32/assets/word-symbol-dots.static.svg?v=39142388321885661271727134992"
+        />
+        Components
+        <img
+          src="https://store.figma.com/cdn/shop/t/32/assets/word-symbol-sun.static.svg?v=163357932534391307201727134990"
+        />
+        For You
+        <img
+          src="https://store.figma.com/cdn/shop/t/32/assets/word-symbol-comet.static.svg?v=16892712658856357451727134991"
+        />
+        and
+        <img
+          src="https://store.figma.com/cdn/shop/t/32/assets/word-symbol-snake.static.svg?v=34100567131936571961727134989"
+        />
+        Your
+        <img
+          src="https://store.figma.com/cdn/shop/t/32/assets/word-symbol-tri.static.svg?v=32742515804419710851727134989"
+        />
+        Friends
+      </h3>
+    </section>
+
+    <section id="shop">
+      <div class="categories">
+        <a href="category.html?category=womens" style="text-decoration: none; color: #000;">
+        <div class="womens category-div">
+          <img class="womens-img" src="" alt="Women's Category" />
+          <p>CATEGORY</p>
+          <h2>WOMEN'S</h2>
+        </div>
+      </a>
+
+      <a href="category.html?category=mens" style="text-decoration: none; color: #000;">
+        <div class="mens category-div">
+          <img class="mens-img" src="" alt="Men's Category" />
+          <p>CATEGORY</p>
+          <h2>MEN'S</h2>
+        </div>
+      </a>
+      <a href="category.html?category=accessories" style="text-decoration: none; color: #000;">
+        <div class="accessories category-div">
+          <img class="accessories-img" src="" alt="Accessories Category" />
+          <p>CATEGORY</p>
+          <h2>ACCESSORIES</h2>
+        </div>
+      </a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="main-footer">
+        <div class="footer-div">
+          <div class="rect">THE FIGMA STORE</div>
+          <div class="footer-text">
+            <h1>OBJECTS THAT INSPIRE.</h1>
+          </div>
+          <div class="footer-links">
+            <a href="about.html#faq">FAQ</a>
+            <a href="about.html#customer-care">Contact Us</a>
+            <a>Privacy Policy</a>
+            <a>Terms of Service</a>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.figma.com/" target="_blank">FIGMA</a>
+          <a href="https://x.com/" target="_blank">TWITTER</a>
+          <a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a>
+          <a href="https://www.youtube.com/" target="_blank">YOUTUBE</a>
+          <a class="up-arrow"><box-icon name='up-arrow-circle'></box-icon></a>
+        </div>
+        <div class="floating-text">
+          <h3>FIGMA'S MARVELOUSLY CONSIDERED COLLECTION OF OBJECTS FOR OUR TIME ON</h3>
+        </div>
+      </div>
+    </footer>
+   
+  </body>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="script.js"></script>
+  
+</html>

@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100vh;
+  margin: 30px;
+  padding: 20px;
+}
+
+.img-wrapper {
+  width: 450px;
+  height: 450px;
+}
+.img-wrapper img {
+  width: 450px;
+  height: 450px;
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+}
+.about-content {
+  height: auto;
+  width: 500px;
+}
+.about-content h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.about-content p {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.donation {
+  display: flex;
+  justify-content: center;
+
+  gap: 90px;
+  height: auto;
+  margin: 40px 30px;
+  padding: 20px;
+}
+.donation-value {
+  width: 500px;
+  height: auto;
+}
+.donation-key {
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 500px;
+  height: auto;
+}
+.donation-value p,
+a {
+  font-size: 25px;
+  font-weight: 400;
+}
+.donation-value a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+#faq {
+  height: auto;
+}
+.faq-value p {
+  font-size: 20px;
+}
+.faq-value img {
+  height: 18px;
+}
+
+#customer-care {
+  height: auto;
+}
+.customer-care-value p {
+  font-size: 20px;
+}
+.customer-care-value img {
+  height: 18px;
+}
+
+@media (max-width: 768px) {
+  .img-wrapper {
+    width: 150px;
+    height: 150px;
+  }
+  .img-wrapper img {
+    width: 150px;
+    height: 150px;
+    clip-path: polygon(
+      30% 0%,
+      70% 0%,
+      100% 30%,
+      100% 70%,
+      70% 100%,
+      30% 100%,
+      0% 70%,
+      0% 30%
+    );
+  }
+  .about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    width: 300;
+  }
+  .about-content {
+    height: auto;
+    width: 00px;
+  }
+  .about-content h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .about-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  .donation-value {
+    width: 300px;
+    height: auto;
+  }
+  .donation-key {
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 300px;
+    height: auto;
+  }
+  .donation-value p,
+  a {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  #faq {
+    height: auto;
+  }
+  .faq-value p {
+    font-size: 10px;
+  }
+  .faq-value img {
+    height: 18px;
+  }
+
+  #customer-care {
+    height: auto;
+  }
+  .customer-care-value p {
+    font-size: 10px;
+  }
+  .customer-care-value img {
+    height: 18px;
+  }
+  .about-container {
+    height: auto;
+    width: 300px;
+    border: 1ox solid black;
+  }
+}
